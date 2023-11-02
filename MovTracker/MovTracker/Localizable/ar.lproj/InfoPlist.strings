@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  MovTracker
+
+  Created by ali alhawas on 16/04/1445 AH.
+  
+*/
+
+"CFBundleDisplayName" = "الاسم بالعربي";
+"CFBundleName" = "الاسم بالعربي";

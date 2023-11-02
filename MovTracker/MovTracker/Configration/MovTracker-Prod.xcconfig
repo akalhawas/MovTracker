@@ -1,0 +1,10 @@
+//
+//  MovTracker-Prod.xcconfig
+//  MovTracker
+//
+//  Created by ali alhawas on 16/04/1445 AH.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+BASE_URL = bhagavad-gita3.p.rapidapi.com/prod

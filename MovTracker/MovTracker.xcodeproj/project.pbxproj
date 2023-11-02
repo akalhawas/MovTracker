@@ -16,6 +16,37 @@
 		0D3812832AF189E300225F92 /* MovTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3812822AF189E300225F92 /* MovTrackerTests.swift */; };
 		0D38128D2AF189E300225F92 /* MovTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D38128C2AF189E300225F92 /* MovTrackerUITests.swift */; };
 		0D38128F2AF189E300225F92 /* MovTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D38128E2AF189E300225F92 /* MovTrackerUITestsLaunchTests.swift */; };
+		0D3812AD2AF191A000225F92 /* MovTracker-Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0D3812AC2AF191A000225F92 /* MovTracker-Dev.xcconfig */; };
+		0D3812B22AF1935800225F92 /* ConfigrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3812B12AF1935800225F92 /* ConfigrationManager.swift */; };
+		0D3812B82AF195CE00225F92 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D3812BA2AF195CE00225F92 /* Localizable.strings */; };
+		0D3812BC2AF195D500225F92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D3812BE2AF195D500225F92 /* InfoPlist.strings */; };
+		0D3812C22AF198DD00225F92 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3812C12AF198DD00225F92 /* OnBoardingView.swift */; };
+		0D3812C42AF19A1600225F92 /* OffstPageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3812C32AF19A1600225F92 /* OffstPageTabView.swift */; };
+		0D3812C72AF1D37A00225F92 /* ShareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3812C62AF1D37A00225F92 /* ShareModel.swift */; };
+		0D3812CA2AF1DA7900225F92 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3812C92AF1DA7900225F92 /* LaunchView.swift */; };
+		0D3812CD2AF1DACC00225F92 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3812CC2AF1DACC00225F92 /* Color.swift */; };
+		0D3812CF2AF1ECFA00225F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3812CE2AF1ECFA00225F92 /* LaunchScreen.storyboard */; };
+		0D3812D22AF1F13E00225F92 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3812D12AF1F13E00225F92 /* NetworkingManager.swift */; };
+		0D3812D42AF1F14B00225F92 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3812D32AF1F14B00225F92 /* LocalFileManager.swift */; };
+		0D3812DC2AF2BBE700225F92 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3812DB2AF2BBE700225F92 /* TabBar.swift */; };
+		0D3812E12AF2BD5100225F92 /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = 0D3812E02AF2BD5100225F92 /* icons.riv */; };
+		0D3812E72AF2BF4C00225F92 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3812E62AF2BF4C00225F92 /* Modifiers.swift */; };
+		0D3812E92AF2BFCF00225F92 /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3812E82AF2BFCF00225F92 /* PreferenceKey.swift */; };
+		0D3812EB2AF2C12C00225F92 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3812EA2AF2C12C00225F92 /* HomeView.swift */; };
+		0D3E6CF32AF2CEA900241204 /* MySampleEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E6CF22AF2CEA900241204 /* MySampleEx.swift */; };
+		0D3E6CF52AF2D0E600241204 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E6CF42AF2D0E600241204 /* Animations.swift */; };
+		0D3E6CF72AF2D1D000241204 /* MaterialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E6CF62AF2D1D000241204 /* MaterialEffect.swift */; };
+		0D3E6CFA2AF2D52000241204 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 0D3E6CF92AF2D52000241204 /* RiveRuntime */; };
+		0DF9BB602AF30A9B0074F871 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9BB5F2AF30A9B0074F871 /* SideMenu.swift */; };
+		0DF9BB622AF30ADE0074F871 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9BB612AF30ADE0074F871 /* MenuRow.swift */; };
+		0DF9BB642AF30B220074F871 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9BB632AF30B220074F871 /* CustomFont.swift */; };
+		0DF9BB662AF30BF40074F871 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9BB652AF30BF40074F871 /* Extensions.swift */; };
+		0DF9BB6B2AF30CE90074F871 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9BB682AF30CE90074F871 /* Inter-SemiBold.ttf */; };
+		0DF9BB6C2AF30CE90074F871 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9BB692AF30CE90074F871 /* Poppins-Bold.ttf */; };
+		0DF9BB6D2AF30CE90074F871 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9BB6A2AF30CE90074F871 /* Inter-Regular.ttf */; };
+		0DF9BB6F2AF30CFE0074F871 /* menu_button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9BB6E2AF30CFE0074F871 /* menu_button.riv */; };
+		0DF9BB722AF324290074F871 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9BB712AF324290074F871 /* Tab.swift */; };
+		0DF9BB742AF325050074F871 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9BB732AF325050074F871 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +79,41 @@
 		0D3812882AF189E300225F92 /* MovTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D38128C2AF189E300225F92 /* MovTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovTrackerUITests.swift; sourceTree = "<group>"; };
 		0D38128E2AF189E300225F92 /* MovTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D3812AC2AF191A000225F92 /* MovTracker-Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "MovTracker-Dev.xcconfig"; sourceTree = "<group>"; };
+		0D3812AE2AF191C800225F92 /* MovTracker-QA.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "MovTracker-QA.xcconfig"; sourceTree = "<group>"; };
+		0D3812AF2AF191DB00225F92 /* MovTracker-Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "MovTracker-Prod.xcconfig"; sourceTree = "<group>"; };
+		0D3812B02AF1930200225F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0D3812B12AF1935800225F92 /* ConfigrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigrationManager.swift; sourceTree = "<group>"; };
+		0D3812B92AF195CE00225F92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0D3812BB2AF195D000225F92 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0D3812BD2AF195D500225F92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D3812BF2AF195D600225F92 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D3812C12AF198DD00225F92 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		0D3812C32AF19A1600225F92 /* OffstPageTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffstPageTabView.swift; sourceTree = "<group>"; };
+		0D3812C62AF1D37A00225F92 /* ShareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareModel.swift; sourceTree = "<group>"; };
+		0D3812C92AF1DA7900225F92 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		0D3812CC2AF1DACC00225F92 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		0D3812CE2AF1ECFA00225F92 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D3812D12AF1F13E00225F92 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		0D3812D32AF1F14B00225F92 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		0D3812DB2AF2BBE700225F92 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		0D3812E02AF2BD5100225F92 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
+		0D3812E62AF2BF4C00225F92 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		0D3812E82AF2BFCF00225F92 /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
+		0D3812EA2AF2C12C00225F92 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0D3E6CF22AF2CEA900241204 /* MySampleEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySampleEx.swift; sourceTree = "<group>"; };
+		0D3E6CF42AF2D0E600241204 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		0D3E6CF62AF2D1D000241204 /* MaterialEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialEffect.swift; sourceTree = "<group>"; };
+		0DF9BB5F2AF30A9B0074F871 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		0DF9BB612AF30ADE0074F871 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		0DF9BB632AF30B220074F871 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		0DF9BB652AF30BF40074F871 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0DF9BB682AF30CE90074F871 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		0DF9BB692AF30CE90074F871 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		0DF9BB6A2AF30CE90074F871 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		0DF9BB6E2AF30CFE0074F871 /* menu_button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = menu_button.riv; sourceTree = "<group>"; };
+		0DF9BB712AF324290074F871 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		0DF9BB732AF325050074F871 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3E6CFA2AF2D52000241204 /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +166,19 @@
 			isa = PBXGroup;
 			children = (
 				0D38126C2AF189E200225F92 /* MovTrackerApp.swift */,
-				0D38126E2AF189E200225F92 /* ContentView.swift */,
+				0D3812DA2AF2BB6200225F92 /* Navigation */,
+				0D3812D52AF1F19500225F92 /* Core */,
+				0D3812D02AF1F11700225F92 /* Utilities */,
+				0D3812CB2AF1DABA00225F92 /* Extensions */,
+				0D3812B32AF1956F00225F92 /* Localizable */,
+				0D3812E52AF2BF3A00225F92 /* Style */,
+				0D3812DF2AF2BD1F00225F92 /* RiveAssets */,
+				0DF9BB672AF30CC80074F871 /* Fonts */,
+				0D3812AB2AF190C700225F92 /* Configration */,
 				0D3812702AF189E300225F92 /* Assets.xcassets */,
 				0D3812752AF189E300225F92 /* Persistence.swift */,
 				0D3812772AF189E300225F92 /* MovTracker.xcdatamodeld */,
+				0D3812B02AF1930200225F92 /* Info.plist */,
 				0D3812722AF189E300225F92 /* Preview Content */,
 			);
 			path = MovTracker;
@@ -133,6 +209,158 @@
 			path = MovTrackerUITests;
 			sourceTree = "<group>";
 		};
+		0D3812AB2AF190C700225F92 /* Configration */ = {
+			isa = PBXGroup;
+			children = (
+				0D3812AC2AF191A000225F92 /* MovTracker-Dev.xcconfig */,
+				0D3812AE2AF191C800225F92 /* MovTracker-QA.xcconfig */,
+				0D3812AF2AF191DB00225F92 /* MovTracker-Prod.xcconfig */,
+				0D3812B12AF1935800225F92 /* ConfigrationManager.swift */,
+			);
+			path = Configration;
+			sourceTree = "<group>";
+		};
+		0D3812B32AF1956F00225F92 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				0D3812BA2AF195CE00225F92 /* Localizable.strings */,
+				0D3812BE2AF195D500225F92 /* InfoPlist.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		0D3812C02AF198C200225F92 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				0D3812C12AF198DD00225F92 /* OnBoardingView.swift */,
+				0D3812C32AF19A1600225F92 /* OffstPageTabView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		0D3812C82AF1D3CE00225F92 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				0D3812C92AF1DA7900225F92 /* LaunchView.swift */,
+				0D3812CE2AF1ECFA00225F92 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		0D3812CB2AF1DABA00225F92 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0D3812CC2AF1DACC00225F92 /* Color.swift */,
+				0D3E6CF22AF2CEA900241204 /* MySampleEx.swift */,
+				0D3E6CF62AF2D1D000241204 /* MaterialEffect.swift */,
+				0DF9BB652AF30BF40074F871 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0D3812D02AF1F11700225F92 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0D3812D12AF1F13E00225F92 /* NetworkingManager.swift */,
+				0D3812D32AF1F14B00225F92 /* LocalFileManager.swift */,
+				0D3812C62AF1D37A00225F92 /* ShareModel.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0D3812D52AF1F19500225F92 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0D3812D62AF2B58400225F92 /* Home */,
+				0D3812D92AF2B5CB00225F92 /* Components */,
+				0D3812C82AF1D3CE00225F92 /* Launch */,
+				0D3812C02AF198C200225F92 /* OnBoarding */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0D3812D62AF2B58400225F92 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0D3812D82AF2B5BA00225F92 /* View */,
+				0D3812D72AF2B5B300225F92 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0D3812D72AF2B5B300225F92 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0D3812D82AF2B5BA00225F92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0D3812EA2AF2C12C00225F92 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0D3812D92AF2B5CB00225F92 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9BB702AF323FA0074F871 /* Model */,
+				0DF9BB612AF30ADE0074F871 /* MenuRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0D3812DA2AF2BB6200225F92 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				0D38126E2AF189E200225F92 /* ContentView.swift */,
+				0D3812DB2AF2BBE700225F92 /* TabBar.swift */,
+				0DF9BB5F2AF30A9B0074F871 /* SideMenu.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		0D3812DF2AF2BD1F00225F92 /* RiveAssets */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9BB6E2AF30CFE0074F871 /* menu_button.riv */,
+				0D3812E02AF2BD5100225F92 /* icons.riv */,
+			);
+			path = RiveAssets;
+			sourceTree = "<group>";
+		};
+		0D3812E52AF2BF3A00225F92 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				0D3812E62AF2BF4C00225F92 /* Modifiers.swift */,
+				0D3812E82AF2BFCF00225F92 /* PreferenceKey.swift */,
+				0D3E6CF42AF2D0E600241204 /* Animations.swift */,
+				0DF9BB632AF30B220074F871 /* CustomFont.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		0DF9BB672AF30CC80074F871 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9BB6A2AF30CE90074F871 /* Inter-Regular.ttf */,
+				0DF9BB682AF30CE90074F871 /* Inter-SemiBold.ttf */,
+				0DF9BB692AF30CE90074F871 /* Poppins-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0DF9BB702AF323FA0074F871 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9BB712AF324290074F871 /* Tab.swift */,
+				0DF9BB732AF325050074F871 /* Menu.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +377,9 @@
 			dependencies = (
 			);
 			name = MovTracker;
+			packageProductDependencies = (
+				0D3E6CF92AF2D52000241204 /* RiveRuntime */,
+			);
 			productName = MovTracker;
 			productReference = 0D3812692AF189E200225F92 /* MovTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -219,8 +450,12 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 0D3812602AF189E200225F92;
+			packageReferences = (
+				0D3E6CF82AF2D52000241204 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = 0D38126A2AF189E200225F92 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -238,7 +473,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D3812742AF189E300225F92 /* Preview Assets.xcassets in Resources */,
+				0DF9BB6C2AF30CE90074F871 /* Poppins-Bold.ttf in Resources */,
+				0D3812B82AF195CE00225F92 /* Localizable.strings in Resources */,
+				0D3812E12AF2BD5100225F92 /* icons.riv in Resources */,
+				0D3812AD2AF191A000225F92 /* MovTracker-Dev.xcconfig in Resources */,
+				0DF9BB6B2AF30CE90074F871 /* Inter-SemiBold.ttf in Resources */,
+				0DF9BB6D2AF30CE90074F871 /* Inter-Regular.ttf in Resources */,
+				0D3812CF2AF1ECFA00225F92 /* LaunchScreen.storyboard in Resources */,
 				0D3812712AF189E300225F92 /* Assets.xcassets in Resources */,
+				0DF9BB6F2AF30CFE0074F871 /* menu_button.riv in Resources */,
+				0D3812BC2AF195D500225F92 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +507,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3812B22AF1935800225F92 /* ConfigrationManager.swift in Sources */,
 				0D3812762AF189E300225F92 /* Persistence.swift in Sources */,
 				0D3812792AF189E300225F92 /* MovTracker.xcdatamodeld in Sources */,
+				0DF9BB722AF324290074F871 /* Tab.swift in Sources */,
+				0DF9BB602AF30A9B0074F871 /* SideMenu.swift in Sources */,
+				0D3812CD2AF1DACC00225F92 /* Color.swift in Sources */,
+				0DF9BB622AF30ADE0074F871 /* MenuRow.swift in Sources */,
+				0D3812E72AF2BF4C00225F92 /* Modifiers.swift in Sources */,
+				0D3812EB2AF2C12C00225F92 /* HomeView.swift in Sources */,
+				0D3812C22AF198DD00225F92 /* OnBoardingView.swift in Sources */,
+				0D3812E92AF2BFCF00225F92 /* PreferenceKey.swift in Sources */,
 				0D38126F2AF189E200225F92 /* ContentView.swift in Sources */,
 				0D38126D2AF189E200225F92 /* MovTrackerApp.swift in Sources */,
+				0DF9BB642AF30B220074F871 /* CustomFont.swift in Sources */,
+				0DF9BB742AF325050074F871 /* Menu.swift in Sources */,
+				0D3812D22AF1F13E00225F92 /* NetworkingManager.swift in Sources */,
+				0D3812C42AF19A1600225F92 /* OffstPageTabView.swift in Sources */,
+				0D3812DC2AF2BBE700225F92 /* TabBar.swift in Sources */,
+				0D3E6CF52AF2D0E600241204 /* Animations.swift in Sources */,
+				0D3812CA2AF1DA7900225F92 /* LaunchView.swift in Sources */,
+				0D3E6CF32AF2CEA900241204 /* MySampleEx.swift in Sources */,
+				0DF9BB662AF30BF40074F871 /* Extensions.swift in Sources */,
+				0D3812C72AF1D37A00225F92 /* ShareModel.swift in Sources */,
+				0D3812D42AF1F14B00225F92 /* LocalFileManager.swift in Sources */,
+				0D3E6CF72AF2D1D000241204 /* MaterialEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +567,29 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		0D3812BA2AF195CE00225F92 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D3812B92AF195CE00225F92 /* en */,
+				0D3812BB2AF195D000225F92 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		0D3812BE2AF195D500225F92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D3812BD2AF195D500225F92 /* en */,
+				0D3812BF2AF195D600225F92 /* ar */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		0D3812902AF189E300225F92 /* Debug */ = {
+		0D3812902AF189E300225F92 /* Debug-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -364,9 +650,9 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = "Debug-Dev";
 		};
-		0D3812912AF189E300225F92 /* Release */ = {
+		0D3812912AF189E300225F92 /* Release-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,7 +698,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -420,10 +706,11 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = "Release-Dev";
 		};
-		0D3812932AF189E300225F92 /* Debug */ = {
+		0D3812932AF189E300225F92 /* Debug-Dev */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3812AC2AF191A000225F92 /* MovTracker-Dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -433,26 +720,32 @@
 				DEVELOPMENT_TEAM = 5JKZDTN9RT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTracker.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG DEV";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
-			name = Debug;
+			name = "Debug-Dev";
 		};
-		0D3812942AF189E300225F92 /* Release */ = {
+		0D3812942AF189E300225F92 /* Release-Dev */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3812AC2AF191A000225F92 /* MovTracker-Dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,25 +755,30 @@
 				DEVELOPMENT_TEAM = 5JKZDTN9RT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTracker.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEV;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
-			name = Release;
+			name = "Release-Dev";
 		};
-		0D3812962AF189E300225F92 /* Debug */ = {
+		0D3812962AF189E300225F92 /* Debug-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -498,9 +796,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovTracker";
 			};
-			name = Debug;
+			name = "Debug-Dev";
 		};
-		0D3812972AF189E300225F92 /* Release */ = {
+		0D3812972AF189E300225F92 /* Release-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -518,9 +816,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovTracker";
 			};
-			name = Release;
+			name = "Release-Dev";
 		};
-		0D3812992AF189E300225F92 /* Debug */ = {
+		0D3812992AF189E300225F92 /* Debug-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -536,9 +834,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MovTracker;
 			};
-			name = Debug;
+			name = "Debug-Dev";
 		};
-		0D38129A2AF189E300225F92 /* Release */ = {
+		0D38129A2AF189E300225F92 /* Release-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -554,7 +852,537 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MovTracker;
 			};
-			name = Release;
+			name = "Release-Dev";
+		};
+		0D38129B2AF18C4E00225F92 /* Debug-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-QA";
+		};
+		0D38129C2AF18C4E00225F92 /* Debug-QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3812AE2AF191C800225F92 /* MovTracker-QA.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JKZDTN9RT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTracker.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG QA";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = "Debug-QA";
+		};
+		0D38129D2AF18C4E00225F92 /* Debug-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JKZDTN9RT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovTracker";
+			};
+			name = "Debug-QA";
+		};
+		0D38129E2AF18C4E00225F92 /* Debug-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JKZDTN9RT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovTracker;
+			};
+			name = "Debug-QA";
+		};
+		0D38129F2AF18C5F00225F92 /* Debug-Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-Prod";
+		};
+		0D3812A02AF18C5F00225F92 /* Debug-Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3812AF2AF191DB00225F92 /* MovTracker-Prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JKZDTN9RT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTracker.prod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG PROD";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = "Debug-Prod";
+		};
+		0D3812A12AF18C5F00225F92 /* Debug-Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JKZDTN9RT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovTracker";
+			};
+			name = "Debug-Prod";
+		};
+		0D3812A22AF18C5F00225F92 /* Debug-Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JKZDTN9RT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovTracker;
+			};
+			name = "Debug-Prod";
+		};
+		0D3812A32AF18C8000225F92 /* Release-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-QA";
+		};
+		0D3812A42AF18C8000225F92 /* Release-QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3812AE2AF191C800225F92 /* MovTracker-QA.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JKZDTN9RT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTracker.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = QA;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = "Release-QA";
+		};
+		0D3812A52AF18C8000225F92 /* Release-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JKZDTN9RT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovTracker";
+			};
+			name = "Release-QA";
+		};
+		0D3812A62AF18C8000225F92 /* Release-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JKZDTN9RT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovTracker;
+			};
+			name = "Release-QA";
+		};
+		0D3812A72AF18C8C00225F92 /* Release-Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Prod";
+		};
+		0D3812A82AF18C8C00225F92 /* Release-Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3812AF2AF191DB00225F92 /* MovTracker-Prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JKZDTN9RT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTracker.prod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PROD;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = "Release-Prod";
+		};
+		0D3812A92AF18C8C00225F92 /* Release-Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JKZDTN9RT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovTracker";
+			};
+			name = "Release-Prod";
+		};
+		0D3812AA2AF18C8C00225F92 /* Release-Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JKZDTN9RT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akalhawas.MovTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovTracker;
+			};
+			name = "Release-Prod";
 		};
 /* End XCBuildConfiguration section */
 
@@ -562,40 +1390,75 @@
 		0D3812642AF189E200225F92 /* Build configuration list for PBXProject "MovTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D3812902AF189E300225F92 /* Debug */,
-				0D3812912AF189E300225F92 /* Release */,
+				0D3812902AF189E300225F92 /* Debug-Dev */,
+				0D38129F2AF18C5F00225F92 /* Debug-Prod */,
+				0D38129B2AF18C4E00225F92 /* Debug-QA */,
+				0D3812912AF189E300225F92 /* Release-Dev */,
+				0D3812A72AF18C8C00225F92 /* Release-Prod */,
+				0D3812A32AF18C8000225F92 /* Release-QA */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release-Dev";
 		};
 		0D3812922AF189E300225F92 /* Build configuration list for PBXNativeTarget "MovTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D3812932AF189E300225F92 /* Debug */,
-				0D3812942AF189E300225F92 /* Release */,
+				0D3812932AF189E300225F92 /* Debug-Dev */,
+				0D3812A02AF18C5F00225F92 /* Debug-Prod */,
+				0D38129C2AF18C4E00225F92 /* Debug-QA */,
+				0D3812942AF189E300225F92 /* Release-Dev */,
+				0D3812A82AF18C8C00225F92 /* Release-Prod */,
+				0D3812A42AF18C8000225F92 /* Release-QA */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release-Dev";
 		};
 		0D3812952AF189E300225F92 /* Build configuration list for PBXNativeTarget "MovTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D3812962AF189E300225F92 /* Debug */,
-				0D3812972AF189E300225F92 /* Release */,
+				0D3812962AF189E300225F92 /* Debug-Dev */,
+				0D3812A12AF18C5F00225F92 /* Debug-Prod */,
+				0D38129D2AF18C4E00225F92 /* Debug-QA */,
+				0D3812972AF189E300225F92 /* Release-Dev */,
+				0D3812A92AF18C8C00225F92 /* Release-Prod */,
+				0D3812A52AF18C8000225F92 /* Release-QA */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release-Dev";
 		};
 		0D3812982AF189E300225F92 /* Build configuration list for PBXNativeTarget "MovTrackerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D3812992AF189E300225F92 /* Debug */,
-				0D38129A2AF189E300225F92 /* Release */,
+				0D3812992AF189E300225F92 /* Debug-Dev */,
+				0D3812A22AF18C5F00225F92 /* Debug-Prod */,
+				0D38129E2AF18C4E00225F92 /* Debug-QA */,
+				0D38129A2AF189E300225F92 /* Release-Dev */,
+				0D3812AA2AF18C8C00225F92 /* Release-Prod */,
+				0D3812A62AF18C8000225F92 /* Release-QA */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release-Dev";
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0D3E6CF82AF2D52000241204 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D3E6CF92AF2D52000241204 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D3E6CF82AF2D52000241204 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0D3812772AF189E300225F92 /* MovTracker.xcdatamodeld */ = {
